@@ -18,7 +18,7 @@ console.log(numbersList, numbersList.length);
 document.getElementById('numbers').innerHTML = "Hai 30 secondi per memorizzare questi numeri " + numbersList;
 
 // Dopo 30 secondi l’utente deve inserire, un prompt alla volta, i numeri che ha visto precedentemente.
-var interval = setInterval(function (){
+setTimeout(function (){
   document.getElementById('numbers').innerHTML = " ";
 }, 29000);
 
